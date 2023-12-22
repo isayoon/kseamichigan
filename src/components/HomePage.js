@@ -2,7 +2,7 @@ import './HomePage.css';
 
 function HomePage() {
     return (
-      <div>
+      <div className="homepage">
         <h1 class = "title">Korean American Scientists & Engineers Association</h1>
       </div>
     );
