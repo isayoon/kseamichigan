@@ -1,5 +1,9 @@
+.HomePageWrapper{
+  width: 100%;
+}
+
 .MenuBar {
-  display:flex;
+  display: flex;
   margin: 0px;
   padding: 0px;
   border: 1px solid red;
@@ -31,22 +35,55 @@
   height: 71.882px;
   flex-shrink: 0;
   margin-top: 4.331vh;
-  margin-left: 1.40vw;
+  margin-left: 1.4vw;
 }
 
-.logo{
+.logo {
   width: 43.129px;
   height: 44.926px;
   flex-shrink: 0;
   margin-top: 6.2vh;
   margin-left: 5.5vw;
-  display:block;
+  display: block;
 }
 
 .vertical-line {
   width: 1.797px;
   height: 38.636px;
-  background-color: #3954A5;
+  background-color: #3954a5;
   margin-top: 7.1vh;
   margin-left: 1.35vw;
 }
+
+.umich {
+  color: #3954a5;
+  font-family: "Outfit";
+  font-size: 15.275px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 92.547px;
+  height: 37.738px;
+  flex-shrink: 0;
+  margin-top: 7.1vh;
+  margin-left: 1.5vw;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #3954a5;
+  font-family: "Montserrat";
+  font-size: 17.97px;
+  width: 88.055px;
+  height: 17.072px;
+  flex-shrink: 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* 
+.navigation{
+  margin-top: 49px;
+  margin-left:554px;
+  
+} */
