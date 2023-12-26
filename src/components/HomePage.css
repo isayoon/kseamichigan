@@ -1,28 +1,52 @@
-.homepage{
-  margin:0px;
-  padding:0px;
+.MenuBar {
+  display:flex;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid red;
+  height: 16.46vh;
 }
 
 .title {
-    color: #5269af;
-    font-family: Outfit;
-    font-size: 62.896px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    width: 597.515px;
-    height: 338.742px;
-    flex-shrink: 0;
-    margin-top: 194.88px;
-    margin-left: 88.95px;
-  }
+  color: #5269af;
+  font-family: "Outfit";
+  font-size: 62.896px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 597.515px;
+  height: 338.742px;
+  flex-shrink: 0;
+  margin-top: 9vh;
+  margin-left: 6.949vw;
+}
 
-hr{
+#topKsea {
+  color: #3954a5;
+  font-family: "Archivo Black";
+  font-size: 53.911px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 170.719px;
+  height: 71.882px;
+  flex-shrink: 0;
+  margin-top: 4.331vh;
+  margin-left: 1.40vw;
+}
 
-  width: 100%;          /* Make the line full width */
-  margin: 0;            /* Remove any default margin */
-  border: none;         /* Remove any default border */
-  height: 1px;          /* Set the thickness of the line */
-  background-color: #333;
-  padding:0px;
+.logo{
+  width: 43.129px;
+  height: 44.926px;
+  flex-shrink: 0;
+  margin-top: 6.2vh;
+  margin-left: 5.5vw;
+  display:block;
+}
+
+.vertical-line {
+  width: 1.797px;
+  height: 38.636px;
+  background-color: #3954A5;
+  margin-top: 7.1vh;
+  margin-left: 1.35vw;
 }
