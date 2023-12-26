@@ -1,12 +1,13 @@
 import React from "react";
 import "./HomePage.css";
-import Ksealogo from "../images/ksealogo.png";
+import ksealogo from "../images/ksealogo.png";
+import iglogo from "../images/instagram.png";
 
 function HomePage() {
   return (
     <div className="HomePageWrapper">
       <header className="MenuBar">
-        <img src={Ksealogo} alt="KSEA logo" className="logo" />
+        <img src={ksealogo} alt="KSEA logo" className="ksealogo" />
         <p id="topKsea">KSEA</p>
         <div className="vertical-line"></div>
         <p className="umich">University of Michigan</p>
@@ -17,8 +18,15 @@ function HomePage() {
           <a href="/committees">Committees</a>
           <a href="/join">Join</a>
         </nav>
+        <a
+          href="https://www.instagram.com/ksea.michigan"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={iglogo} alt="Instagram logo" className="iglogo" />
+        </a>
       </header>
-
+      <hr className="line"/>
       <main className="main-content">
         <h1 className="title">
           Korean American Scientists & Engineers Association
