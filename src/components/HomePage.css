@@ -95,6 +95,9 @@
   margin-top: 8vh;
 }
 
+.navigation a:hover {
+  text-decoration: underline;
+}
 .iglogo {
   width: 19px;
   height: 19px;
