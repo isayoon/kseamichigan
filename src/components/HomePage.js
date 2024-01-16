@@ -2,6 +2,7 @@ import React from "react";
 import "./HomePage.css";
 import ksealogo from "../images/ksealogo.png";
 import iglogo from "../images/instagram.png";
+import star from "../images/star.png";
 
 function HomePage() {
   return (
@@ -26,12 +27,14 @@ function HomePage() {
           <img src={iglogo} alt="Instagram logo" className="iglogo" />
         </a>
       </header>
-      <hr className="line"/>
+      <hr className="line" />
       <main className="main-content">
         <h1 className="title">
           Korean American Scientists & Engineers Association
         </h1>
+        <img src={star} alt="star" className="star1" />
         <button className="register-button">Register Here</button>
+        
       </main>
     </div>
   );

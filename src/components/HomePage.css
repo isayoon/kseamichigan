@@ -4,26 +4,12 @@
   box-sizing: border-box;
 }
 
+/* HEADER SECTION */
+
 .MenuBar {
   display: flex;
-  margin: 0px;
-  padding: 0px;
-  /* border: 1px solid red; */
+  align-items: center;
   height: 16.46vh;
-}
-
-.title {
-  color: #5269af;
-  font-family: "Outfit";
-  font-size: 62.896px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  width: 597.515px;
-  height: 338.742px;
-  flex-shrink: 0;
-  margin-top: 9vh;
-  margin-left: 6.949vw;
 }
 
 #topKsea {
@@ -36,7 +22,6 @@
   width: 170.719px;
   height: 71.882px;
   flex-shrink: 0;
-  margin-top: 4.331vh;
   margin-left: 1.4vw;
 }
 
@@ -44,7 +29,6 @@
   width: 43.129px;
   height: 44.926px;
   flex-shrink: 0;
-  margin-top: 6.2vh;
   margin-left: 5.5vw;
   display: block;
 }
@@ -53,7 +37,6 @@
   width: 1.797px;
   height: 38.636px;
   background-color: #3954a5;
-  margin-top: 7.1vh;
   margin-left: 1.35vw;
 }
 
@@ -67,8 +50,8 @@
   width: 92.547px;
   height: 37.738px;
   flex-shrink: 0;
-  margin-top: 7.1vh;
   margin-left: 1.5vw;
+  margin-right: 13.06vw;
 }
 
 .navigation a {
@@ -82,44 +65,62 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-right: 4.5vw;
+  margin-right: 5.61vw;
 }
-
-.navigation a:first-child {
-  margin-left: 10.01vw;
-}
-.navigation a:last-child {
-  padding-right: 0px;
-}
-.navigation {
-  margin-top: 8vh;
+.navigation :last-child{
+  margin-right:0px;
 }
 
 .navigation a:hover {
   text-decoration: underline;
 }
+
+
 .iglogo {
   width: 19px;
   height: 19px;
   flex-shrink: 0;
-  margin-top: 8.4vh;
-  margin-left: 8.4vh;
+  margin-left: 4.61vw;
 }
+
+/* END OF HEADER */
 
 .line {
   border: none;
   height: 1.984px; /* Set the height of your line */
   background-color: #3954a5; /* Set the color of your line */
   width: 100%; /* Ensures the line is full width */
-  margin-top: 2.5vh;
+  margin-top: 0.125vh;
+}
+
+
+/* MAIN SECTION */
+.main-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #5269af;
+  font-family: "outfit";
+  font-size: 62.896px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  width: 597.515px;
+  height: 338.742px;
+  flex-shrink: 0;
+  margin-left: 6.95vw;
+  margin-top: 11.52vh;
 }
 
 .register-button {
   text-align: center;
-  font-family: Outfit;
+  font-family: "Outfit";
   font-size: 19.767px;
   font-style: normal;
-  font-weight: 700; 
+  font-weight: 700;
   line-height: normal;
   color: white;
   width: 376.244px;
@@ -128,4 +129,13 @@
   border-radius: 33.736px;
   border: 0px;
   background: #3954a5;
+  margin-right: 10.90vw;
+  margin-top: 50.57vh; 
+  cursor: pointer;
+}
+
+.star1 {
+  width: 75.476px;
+  height: 92.547px;
+  flex-shrink: 0;
 }
