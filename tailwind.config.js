@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./build/*.html'],
   theme: {
-    extend: {},
+    extend: {
+        colors:{
+            'bg1-color': '#FCFAF4',
+        }
+    },
   },
   plugins: [],
 }
