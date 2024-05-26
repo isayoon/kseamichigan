@@ -7,7 +7,7 @@ This is a documentation on various topics like how to get started and troublesho
 1. Install [Node.js](https://nodejs.org/en)
 2. Clone the git repository `git clone https://github.com/isayoon/kseamichigan.git`
 3. Install node packages `npm install`
-4. In your terminal `npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch` to continuously load Tailwind into CSS. This will run in the background.
+4. In your terminal run `npm run tailwind`
 5. Open using LiveServer
 
 ## VSCode Extensions to download
