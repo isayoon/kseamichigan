@@ -569,10 +569,6 @@ video {
   min-height: 100vh;
 }
 
-.max-w-4 {
-  max-width: 1rem;
-}
-
 .max-w-4xl {
   max-width: 56rem;
 }
