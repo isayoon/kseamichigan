@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <!-- https://tailwindcss.com/ Good resource -->
+<!-- https://css-tricks.com/snippets/css/complete-guide-grid/ -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KSEA UMICH</title>   
+    <title>KSEA UMICH</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="min-h-screen bg-bg1-color dark:bg-blue-950 dark:text-white">
-    <header class="bg-bg1-color text-textblue-color sticky top-0 z-10">
-        <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
-            <h1 class="text-3xl font-medium">KSEA</h1>
-        </section>
-    </header>
+    <nav class="w-screen bg-bg1-color text-textblue-color fixed top-0 left-0 z-50 lg:pt-4 pt-0 px-4 sm:px-6 lg:px-8 xl:px-16 h-[123px]">
+        <div class="flex justify-between items-center h-full">
+             <!-- Logo and Title Section -->
+            <div class="flex items-center space-x-2 "> 
+                <img src="/public/img/KSEALOGO.png" alt="KSEA Logo" class = "w-12 h-12">
+                <span class="text-5xl font-custom font-extrabold"> KSEA </span>
+                <img src="/public/img/LINE.png" alt="line">
+                <div class="w-[89px]">
+                    <span class="text-md text-wrap font-custom1 font-bold">University of Michigan</span>
+                </div>
+                
+            </div>
+             <!-- Navigation Links Section -->
+             <div class="flex space-x-8 text-white">
+                <a href="#about" class="hover:text-gray-300 text-textblue-color">About Us</a>
+                <a href="#events" class="hover:text-gray-300 text-textblue-color">Events</a>
+                <a href="#alumni" class="hover:text-gray-300 text-textblue-color">Alumni</a>
+                <a href="#committees" class="hover:text-gray-300 text-textblue-color">Committees</a>
+                <a href="#join" class="hover:text-gray-300 text-textblue-color">Join</a>
+                <a href="https://www.instagram.com/ksea.michigan/?hl=en" target="_blank" class="hover:text-gray-300">
+                    <img src="/public/img/IGLOGO.png" alt="Instagram" class="w-6 h-6">
+                </a>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>

@@ -544,33 +544,92 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.sticky {
-  position: sticky;
+.fixed {
+  position: fixed;
+}
+
+.left-0 {
+  left: 0px;
 }
 
 .top-0 {
   top: 0px;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.z-50 {
+  z-index: 50;
 }
 
 .flex {
   display: flex;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-\[123px\] {
+  height: 123px;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
 
-.max-w-4xl {
-  max-width: 56rem;
+.w-12 {
+  width: 3rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-\[87\.55px\] {
+  width: 87.55px;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-\[88\.55px\] {
+  width: 88.55px;
+}
+
+.w-\[88px\] {
+  width: 88px;
+}
+
+.w-\[88\.1px\] {
+  width: 88.1px;
+}
+
+.w-\[88\.2px\] {
+  width: 88.2px;
+}
+
+.w-\[88\.3px\] {
+  width: 88.3px;
+}
+
+.w-\[88\.4px\] {
+  width: 88.4px;
+}
+
+.w-\[88\.5px\] {
+  width: 88.5px;
+}
+
+.w-\[89px\] {
+  width: 89px;
 }
 
 .items-center {
@@ -581,22 +640,65 @@ video {
   justify-content: space-between;
 }
 
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2rem * var(--tw-space-x-reverse));
+  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.text-wrap {
+  text-wrap: wrap;
+}
+
 .bg-bg1-color {
   --tw-bg-opacity: 1;
   background-color: rgb(252 250 244 / var(--tw-bg-opacity));
 }
 
-.p-4 {
-  padding: 1rem;
+.bg-orange-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(194 65 12 / var(--tw-bg-opacity));
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.font-medium {
-  font-weight: 500;
+.pt-0 {
+  padding-top: 0px;
+}
+
+.font-custom {
+  font-family: Archivo_Black, sans-serif;
+}
+
+.font-custom1 {
+  font-family: Outfit_bold, sans-serif;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-textblue-color {
@@ -606,6 +708,36 @@ video {
 
 .radial-blue{
   background: radial-gradient(lightyellow, skyblue);
+}
+
+.hover\:text-gray-300:hover {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:pt-4 {
+    padding-top: 1rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
